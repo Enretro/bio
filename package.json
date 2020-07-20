@@ -1,0 +1,22 @@
+{
+  "name": "enbio",
+  "version": "1.0.0",
+  "description": "web portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enretro/bio.git"
+  },
+  "keywords": [
+    "en"
+  ],
+  "author": "iztok kostanjšek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enretro/bio/issues"
+  },
+  "homepage": "https://github.com/Enretro/bio#readme"
+}
