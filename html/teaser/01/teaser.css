@@ -1,0 +1,108 @@
+/*
+font-family: 'Baloo Da 2', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Marck Script', cursive;
+font-family: 'Montserrat', sans-serif;*/
+
+:root {
+  --en-prime: #645296;
+  --en-rgba-prime: rgb(100, 82, 150);
+  --en-text: #c8b957;
+  --en-rgba-text: rgb(200, 185, 87);
+  --en-dark-red: #9d2929;
+  --en-text-dark: #796b0f;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5vh;
+  font-family: 'Lato', sans-serif;
+  background: #999;
+}
+
+div {
+  height: 90vh;
+}
+
+img {
+  grid-column: 1 / 3;
+  grid-row: 1 / 6;
+
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 40ch) 1fr;
+  grid-template-rows: 20% 2fr auto auto 1fr;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  grid-column: 2 / 4;
+  grid-row: 3 / 4;
+  align-self: end;
+  background: black;
+  color: var(--en-text);
+  margin: 0;
+  padding: 1.4rem;
+  line-height: 1.2;
+  font-weight: normal;
+
+}
+
+figure {
+  grid-column: 1 / 3;
+  grid-row: 1 / 6;
+
+}
+
+a {
+  color: var(--en-text-dark);
+}
+
+a:hover {
+  cursor: pointer;
+  color: black;
+}
+
+img {
+
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 100%;
+  filter: grayscale(1);
+}
+
+
+figcaption {
+  font-style: italic;
+  font-size: .7em;
+  color: beige;
+  text-align: right;
+
+}
+
+p {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  align-self: start;
+  background: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
+  border: 1px solid whitesmoke;
+  margin: 0;
+}
+
+span {
+  text-transform: uppercase;
+  color: var(--en-text-dark);
+
+
+}
