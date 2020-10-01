@@ -1,0 +1,21 @@
+:root {
+  font: 20px/1.2 'Noto Sans JP', sans-serif;
+}
+body,
+body * {
+  margin: unset;
+  padding: unset;
+  box-sizing: unset;
+  font-size: unset;
+  color: unset;
+  text-decoration: unset;
+}
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+figure *{
+  display: block;
+}
+
